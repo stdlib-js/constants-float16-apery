@@ -60,6 +60,11 @@ where `ζ(s)` is the Riemann zeta function.
 ## Usage
 
 ```javascript
+import FLOAT16_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-apery@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-apery/tags). For example,
+
+```javascript
 import FLOAT16_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-apery@v0.1.0-esm/index.mjs';
 ```
 
@@ -90,7 +95,7 @@ var bool = ( FLOAT16_APERY === 1.2021484375 );
 <body>
 <script type="module">
 
-import FLOAT16_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-apery@v0.1.0-esm/index.mjs';
+import FLOAT16_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-apery@esm/index.mjs';
 
 console.log( FLOAT16_APERY );
 // => 1.2021484375
