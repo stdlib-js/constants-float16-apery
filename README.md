@@ -60,7 +60,7 @@ where `ζ(s)` is the Riemann zeta function.
 ## Usage
 
 ```javascript
-import FLOAT16_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-apery@esm/index.mjs';
+import FLOAT16_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-apery@v0.1.1-esm/index.mjs';
 ```
 
 #### FLOAT16_APERY
@@ -90,7 +90,7 @@ var bool = ( FLOAT16_APERY === 1.2021484375 );
 <body>
 <script type="module">
 
-import FLOAT16_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-apery@esm/index.mjs';
+import FLOAT16_APERY from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-apery@v0.1.1-esm/index.mjs';
 
 console.log( FLOAT16_APERY );
 // => 1.2021484375
